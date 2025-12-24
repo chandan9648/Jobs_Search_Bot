@@ -1,3 +1,5 @@
+const dotenv = require("dotenv");
+dotenv.config();
 const cron = require("node-cron");
 const searchJobs = require("./searchJobs");
 const sendEmail = require("./sendEmails");
