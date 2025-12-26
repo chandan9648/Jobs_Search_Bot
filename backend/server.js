@@ -5,6 +5,7 @@ const searchJobs = require("./searchJobs");
 const sendEmail = require("./sendEmails");
 
 (async () => {
+
   try {
     console.log("Searching jobs...");
     const jobs = await searchJobs();
